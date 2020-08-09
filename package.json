@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@cloudnative/health-connect": "^2.1.0",
+    "appmetrics-prometheus": "^2.0.0",
+    "appmetrics-zipkin": "^1.1.1",
+    "body-parser": "1.15.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "http-server": "^0.12.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "serve-favicon": "2.3.0",
+    "stylus": "0.54.5"
+  },
+  "devDependencies": {
+    "mocha": "3.1.0"
+  }
+}
